@@ -11,6 +11,15 @@
 		0D1C68DB299DA824001E4C79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68DA299DA824001E4C79 /* ContentView.swift */; };
 		0D1C68DD299DA825001E4C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1C68DC299DA825001E4C79 /* Assets.xcassets */; };
 		0D1C68E0299DA825001E4C79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1C68DF299DA825001E4C79 /* Preview Assets.xcassets */; };
+		0D1C68EB299DA8CD001E4C79 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68EA299DA8CD001E4C79 /* LoginView.swift */; };
+		0D1C68ED299DDFBF001E4C79 /* SignInPartial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68EC299DDFBF001E4C79 /* SignInPartial.swift */; };
+		0D1C68EF299DFB8B001E4C79 /* SignUpPartial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68EE299DFB8B001E4C79 /* SignUpPartial.swift */; };
+		0D1C68F3299EA623001E4C79 /* SignBySocialMediaPartial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68F2299EA623001E4C79 /* SignBySocialMediaPartial.swift */; };
+		0D1C68F5299EEA4C001E4C79 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68F4299EEA4C001E4C79 /* SwiftUIView.swift */; };
+		0D1C68F9299EFB81001E4C79 /* IconComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68F8299EFB81001E4C79 /* IconComponent.swift */; };
+		0D1C68FB299EFD26001E4C79 /* TextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68FA299EFD26001E4C79 /* TextFieldComponent.swift */; };
+		0D1C68FD299EFF18001E4C79 /* SecureFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C68FC299EFF18001E4C79 /* SecureFieldComponent.swift */; };
+		0D867F6A29A04C7100E13663 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D867F6929A04C7100E13663 /* Shake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		0D1C68DA299DA824001E4C79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D1C68DC299DA825001E4C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D1C68DF299DA825001E4C79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D1C68EA299DA8CD001E4C79 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0D1C68EC299DDFBF001E4C79 /* SignInPartial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPartial.swift; sourceTree = "<group>"; };
+		0D1C68EE299DFB8B001E4C79 /* SignUpPartial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPartial.swift; sourceTree = "<group>"; };
+		0D1C68F2299EA623001E4C79 /* SignBySocialMediaPartial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignBySocialMediaPartial.swift; sourceTree = "<group>"; };
+		0D1C68F4299EEA4C001E4C79 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0D1C68F8299EFB81001E4C79 /* IconComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconComponent.swift; sourceTree = "<group>"; };
+		0D1C68FA299EFD26001E4C79 /* TextFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldComponent.swift; sourceTree = "<group>"; };
+		0D1C68FC299EFF18001E4C79 /* SecureFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldComponent.swift; sourceTree = "<group>"; };
+		0D867F6929A04C7100E13663 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,10 @@
 		0D1C68D7299DA824001E4C79 /* CaligoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0D867F6829A04C3200E13663 /* Helpers */,
+				0D1C68E8299DA871001E4C79 /* Views */,
+				0D1C68E7299DA85E001E4C79 /* ViewModels */,
+				0D1C68E6299DA851001E4C79 /* Models */,
 				0D1C68D8299DA824001E4C79 /* CaligoAppApp.swift */,
 				0D1C68DA299DA824001E4C79 /* ContentView.swift */,
 				0D1C68DC299DA825001E4C79 /* Assets.xcassets */,
@@ -65,6 +87,67 @@
 				0D1C68DF299DA825001E4C79 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D1C68E6299DA851001E4C79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D1C68E7299DA85E001E4C79 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0D1C68E8299DA871001E4C79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D1C68E9299DA8AF001E4C79 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D1C68E9299DA8AF001E4C79 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0D1C68F7299EFA9E001E4C79 /* Components */,
+				0D1C68F6299EFA80001E4C79 /* Partials */,
+				0D1C68EA299DA8CD001E4C79 /* LoginView.swift */,
+				0D1C68F4299EEA4C001E4C79 /* SwiftUIView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0D1C68F6299EFA80001E4C79 /* Partials */ = {
+			isa = PBXGroup;
+			children = (
+				0D1C68F2299EA623001E4C79 /* SignBySocialMediaPartial.swift */,
+				0D1C68EE299DFB8B001E4C79 /* SignUpPartial.swift */,
+				0D1C68EC299DDFBF001E4C79 /* SignInPartial.swift */,
+			);
+			path = Partials;
+			sourceTree = "<group>";
+		};
+		0D1C68F7299EFA9E001E4C79 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0D1C68F8299EFB81001E4C79 /* IconComponent.swift */,
+				0D1C68FA299EFD26001E4C79 /* TextFieldComponent.swift */,
+				0D1C68FC299EFF18001E4C79 /* SecureFieldComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0D867F6829A04C3200E13663 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D867F6929A04C7100E13663 /* Shake.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1C68EB299DA8CD001E4C79 /* LoginView.swift in Sources */,
+				0D1C68F5299EEA4C001E4C79 /* SwiftUIView.swift in Sources */,
+				0D1C68F9299EFB81001E4C79 /* IconComponent.swift in Sources */,
+				0D867F6A29A04C7100E13663 /* Shake.swift in Sources */,
+				0D1C68F3299EA623001E4C79 /* SignBySocialMediaPartial.swift in Sources */,
 				0D1C68DB299DA824001E4C79 /* ContentView.swift in Sources */,
 				0D1C68D9299DA824001E4C79 /* CaligoAppApp.swift in Sources */,
+				0D1C68ED299DDFBF001E4C79 /* SignInPartial.swift in Sources */,
+				0D1C68FD299EFF18001E4C79 /* SecureFieldComponent.swift in Sources */,
+				0D1C68FB299EFD26001E4C79 /* TextFieldComponent.swift in Sources */,
+				0D1C68EF299DFB8B001E4C79 /* SignUpPartial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
